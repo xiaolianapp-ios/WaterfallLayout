@@ -97,9 +97,9 @@ public protocol WaterfallLayoutDelegate: class {
 ```
 
 ## Requirements
-- iOS 9.0+
-- Xcode 9+
-- Swift 4+
+- iOS 13.0+
+- Xcode 12+
+- Swift 5+
 
 ## Installation
 
@@ -108,30 +108,15 @@ public protocol WaterfallLayoutDelegate: class {
 - Add the following to your *Cartfile*:
 
 ```bash
-github "sgr-ksmt/WaterfallLayout" ~> 0.1
+github "xiaolianapp-ios/WaterfallLayout" ~> 0.1.1
 ```
 
 - Run `carthage update`
 - Add the framework as described.
 <br> Details: [Carthage Readme](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application)
 
-
-### CocoaPods
-
-**WaterfallLayout** is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'WaterfallLayout', '~> 0.1'
-```
-
-and run `pod install`
-
 ### Manually Install
 Download all `*.swift` files and put your project.
-
-## Change log
-Change log is [here](https://github.com/sgr-ksmt/WaterfallLayout/blob/master/CHANGELOG.md).
 
 ## Communication
 - If you found a bug, open an issue.
